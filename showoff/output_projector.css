@@ -1,0 +1,5 @@
+/* Make slides a little smaller so they really fit in 1024x768. */
+#preso, .slide {
+	width: 1016px !important;
+	height: 760px !important;
+}

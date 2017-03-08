@@ -1,0 +1,10 @@
+/* Size for full-screen on the laptop display. */
+#preso, .slide {
+	width: 1366px !important;
+	height: 768px !important;
+}
+
+/* Hide hamburger menu. */
+#hamburger {
+	display: none;
+}

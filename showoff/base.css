@@ -1,0 +1,47 @@
+/* Make fonts larger. */
+.slide {
+	font-size: 2.2em;
+}
+
+/* Don't style links. */
+a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+/* Screenshots, etc. */
+.content > .imgright {
+        float: right;
+        max-width: 100%;
+}
+
+/* Don't display the footer for "title" slides. */
+.title > .slide-footer {
+	display: none;
+}
+
+/* 3-section footer. */
+.content > .slide-footer {
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+}
+
+.content .slide-info {
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	width: -webkit-calc(33% - 30px);
+	width: calc(33% - 30px);
+	font-size: 50%;
+}
+.content .slide-info-left {
+	text-align: left;
+}
+.content .slide-info-center {
+	text-align: center;
+}
+.content .slide-info-right {
+	text-align: right;
+}

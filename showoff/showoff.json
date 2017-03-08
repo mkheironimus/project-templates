@@ -1,0 +1,12 @@
+{
+  "name": "Title",
+  "description": "Subtitle",
+  "author": "Michael Heironimus",
+  "url": "https://mkheironimus.github.io/",
+  "email": "heironimus@gmail.com",
+  "twitter": "mkheironimus",
+  "templates": { "default": "default.tpl" },
+  "sections": {
+    "SectionName": [ "section/slide.md" ]
+  }
+}
